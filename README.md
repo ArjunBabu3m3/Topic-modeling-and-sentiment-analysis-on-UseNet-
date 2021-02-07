@@ -1,6 +1,6 @@
 # Topic-modeling-and-sentiment-analysis-on-UseNet-
 
-![alt text](amazon.JPG)
+![alt text](sentiment-analysis_1.JPG)
 
 ### Table of contents
 * [Introduction](#introduction)
