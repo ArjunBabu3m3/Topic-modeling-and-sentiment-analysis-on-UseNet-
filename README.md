@@ -31,7 +31,7 @@ I started the modeling process by first implementing the Latent Dirichlet Alloca
 * PySpark 3.0.0
 
 ### Type of Data
-*The dataset consists of 18,846 text files corresponding to 20 Newsgroup collection [6]. The data is split into train and test consisting of 11,314 training examples. This dataset contains 20,000 messages (newsgroup documents) sent to 20 Usenet bulletin board on various topics like politics, religion, cars, sports
+* The dataset consists of 18,846 text files corresponding to 20 Newsgroup collection [6]. The data is split into train and test consisting of 11,314 training examples. This dataset contains 20,000 messages (newsgroup documents) sent to 20 Usenet bulletin board on various topics like politics, religion, cars, sports
 
 ### Data Pre-processing
 ![alt text](/images/wordc.png)
