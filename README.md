@@ -59,4 +59,4 @@ The data analysis performed has given us valuable insights in both the explorato
 
 The future work would include training a LSTM model for sentiment analysis. And for a further accurate model, can use BERT (Bidirectional Encoder Representations from Transformers).
 
-![alt text](Screen Shot 2021-02-06 at 10.46.57 PM.JPG)
+![alt text](pyviz.JPG)
