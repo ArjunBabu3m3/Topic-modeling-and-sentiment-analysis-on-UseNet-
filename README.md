@@ -34,6 +34,7 @@ I started the modeling process by first implementing the Latent Dirichlet Alloca
 *The dataset consists of 18,846 text files corresponding to 20 Newsgroup collection [6]. The data is split into train and test consisting of 11,314 training examples. This dataset contains 20,000 messages (newsgroup documents) sent to 20 Usenet bulletin board on various topics like politics, religion, cars, sports
 
 ### Data Pre-processing
+![alt text](wordc.png)
 * I start by extracting each file from the folders in our training set folder. And then I split the file path and chose to use the second last portion to represent newsgroup name. In the Exploratory Data Analysis section, I first checked the spread of documents across the newsgroup. Next, to understand word frequency, I plotted a Wordcloud. It showed that top words consisted more of stopwords like make, will or use, which contributed as noise in our data. And hence, a design decision to remove these unwanted words was implemented.
 
 Since messages were sent via emails, the data contained unwanted texts in the form of email IDs and keywords for headers and subject summary, which were removed as a part of the cleaning process. Once I had the dataset in a dataframe format I started the cleaning process by removing html tags and punctuations from the data.  Regex was used to replace special characters by proper words, double spacing and numbers were also removed every word in the data was then converted into lowercase. Tokenization was performed for a copy of the dataset which was used for Topic Modeling. Note that words were not tokenized while performing Sentiment Analysis. Furthermore, I transformed the textual data in a format that will serve as input for training the LDA model. To better understand and interpret individual words, I plotted the ten most frequent words based on the outcome of the list of document vectors operation.
@@ -59,4 +60,4 @@ The data analysis performed has given us valuable insights in both the explorato
 
 The future work would include training a LSTM model for sentiment analysis. And for a further accurate model, can use BERT (Bidirectional Encoder Representations from Transformers).
 
-![alt text](pyviz.JPG)
+![alt text](pyviz.png)
